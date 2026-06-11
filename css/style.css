@@ -128,7 +128,7 @@ body {
 .tamil-blessing {
   font-family: 'Noto Serif Tamil', serif;
   font-size: clamp(.7rem, 2vw, .9rem);
-  color: var(--gold-light);
+  color: var(--Black-light);
   letter-spacing: .12em;
   opacity: .85;
   text-shadow: 0 1px 8px rgba(0,0,0,.6);
