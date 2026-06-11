@@ -106,7 +106,7 @@ for (let i = 0; i < 12; i++) createPetal();
 
 
 // ── COUNTDOWN RING ───────────────────
-const DURATION   = 6;  // seconds before auto-enter
+const DURATION   = 4;  // seconds before auto-enter
 const ringEl     = document.getElementById('ring-progress');
 const numEl      = document.getElementById('ring-number');
 const circumference = 2 * Math.PI * 44; // r=44

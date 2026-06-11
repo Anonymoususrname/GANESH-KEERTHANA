@@ -148,7 +148,7 @@ function spawnLamp() {
 
 
 /* ── COUNTDOWN ── */
-const weddingDate = new Date('2026-02-14T07:00:00');
+const weddingDate = new Date('2026-07-05T07:00:00');
 
 function updateCountdown() {
   const diff = weddingDate - Date.now();
