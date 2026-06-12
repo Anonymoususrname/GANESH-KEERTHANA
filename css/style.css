@@ -70,7 +70,11 @@ body {
   box-shadow: 0 0 25px rgba(201,148,58,.5);
 }
 #music-btn svg { pointer-events: none; }
-
+@media (max-width: 768px) {
+  #music-btn {
+    bottom: 8rem !important;
+  }
+}
 /* ── FLOATING LAMPS ── */
 #lamp-container {
   position: fixed;
