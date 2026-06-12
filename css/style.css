@@ -123,17 +123,22 @@ body {
   transform: translateX(-50%);
   z-index: 5;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  width: 90%;
+  max-width: 700px;
 }
 .tamil-blessing {
   font-family: 'Noto Serif Tamil', serif;
   font-size: clamp(.7rem, 2vw, .9rem);
-  text-align:center;
-  margin:25px auto 0;
-  font-style:italic;
-  max-width:700px;
+  text-align: center;
+  margin: 25px auto 0;
+  font-style: italic;
+  max-width: 700px;
+  width: 100%;
   color: var(--Black-light);
-  letter-spacing: .12em;
+  letter-spacing: .08em;
+  line-height: 1.8;
+  word-wrap: break-word;
   opacity: .85;
   text-shadow: 0 1px 8px rgba(0,0,0,.6);
 }
