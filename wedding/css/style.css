@@ -59,6 +59,10 @@ body {
   opacity: 1 !important;
   visibility: visible !important;
 }
+#music-btn::after{
+  content:"M";
+  font-size:30px;
+  font-weight:bold;
 }
 #music-btn:hover {
   background: var(--gold);
