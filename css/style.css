@@ -470,6 +470,12 @@ body {
 ═══════════════════════════════════════ */
 #couple { background: var(--body-bg); }
 
+.photo-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .couple-grid {
   display: grid;
   grid-template-columns: 1fr 60px 1fr;
