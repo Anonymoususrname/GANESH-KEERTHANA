@@ -115,7 +115,18 @@ body {
   inset: 0;
   z-index: 0;
 }
+@media (max-width: 768px) {
+  .hero-blessing {
+    width: 92%;
+    top: 1rem;
+  }
 
+  .tamil-blessing {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    letter-spacing: .04em;
+  }
+}
 .hero-blessing {
   position: absolute;
   top: 1.8rem;
@@ -818,7 +829,24 @@ footer {
   line-height: 1.8;
   font-family: 'Philosopher', serif;
 }
+@media (max-width: 768px) {
 
+  .footer-studio {
+    min-width: auto;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .studio-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .studio-link {
+    justify-content: center;
+  }
+
+}
 /* ═══════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════ */
