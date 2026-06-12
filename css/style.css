@@ -167,7 +167,17 @@ body {
   max-width: 900px;
   height: auto;
 }
+@media (max-width: 768px) {
+  .hero-blessing {
+    top: 1rem;
+    width: 90%;
+  }
 
+  .tamil-blessing {
+    white-space: normal;
+    line-height: 1.8;
+  }
+}
 /* Flame flicker */
 .lamp-flame {
   animation: flameFlic 1.4s ease-in-out infinite;
