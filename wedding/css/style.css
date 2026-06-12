@@ -46,22 +46,19 @@ body {
 
 /* ── MUSIC BUTTON ── */
 #music-btn {
-  position: fixed;
-  bottom: 6rem;
-  right: 1rem;
-  z-index: 99999 !important;
-  width: 48px; height: 48px;
-  border-radius: 50%;
-  border: 1.5px solid var(--gold);
-  background: rgba(13,8,4,.85);
-  color: var(--gold);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(8px);
-  transition: background .3s, transform .2s, box-shadow .3s;
-  box-shadow: 0 0 15px rgba(201,148,58,.25);
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  width: 70px !important;
+  height: 70px !important;
+  background: red !important;
+  color: white !important;
+  border: 5px solid white !important;
+  z-index: 99999999 !important;
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 }
 #music-btn:hover {
   background: var(--gold);
