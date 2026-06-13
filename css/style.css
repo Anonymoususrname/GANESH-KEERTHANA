@@ -908,3 +908,10 @@ footer {
   .count-sep { display: none; }
   .countdown-grid { gap: 1rem; }
 }
+#hero-canvas{
+    display:none !important;
+}
+
+#hero{
+    background:#f4efe6 !important;
+}
