@@ -1,6 +1,6 @@
 /* ══════════════════════════════════════
    INVITATION PAGE JS
-   Arjun & Meenakshi · 14 Feb 2026
+   Ganesh & Keerthana · 14 Feb 2026
 ══════════════════════════════════════ */
 
 /* ── SCROLL PROGRESS BAR ── */

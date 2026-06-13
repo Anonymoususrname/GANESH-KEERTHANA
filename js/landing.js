@@ -130,6 +130,14 @@ const timer = setInterval(() => {
 // ── ENTER SITE ───────────────────────
 window.enterSite = function () {
   clearInterval(timer);
+
+  // START MUSIC
+  const bgMusic = document.getElementById('bg-music');
+  if (bgMusic) {
+    bgMusic.volume = 0.35;
+    bgMusic.play();
+  }
+
   const screen = document.getElementById('landing-screen');
   screen.classList.add('fade-out');
   setTimeout(() => {

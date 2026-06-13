@@ -915,3 +915,21 @@ footer {
 #hero{
     background:#f4efe6 !important;
 }
+.person-role{
+    color:#9b7a35;
+    font-size:.9rem;
+    margin-bottom:1rem;
+    font-style:italic;
+}
+
+.person-quote{
+    text-align:center;
+    border-left:none;
+    padding-left:0;
+    max-width:300px;
+    margin:0 auto;
+}
+.person-card{
+    max-width:400px;
+    margin:auto;
+}
